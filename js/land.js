@@ -1,7 +1,3 @@
-
-console.log("PRIMER CAMBIO EN GIT 1");
-console.log("Segundo Cambio en el Git");
-console.log("escape + shift + zz");
 let prop = {
     $cartas: document.querySelectorAll(".container-carta"),
     $imagenes: document.querySelectorAll(".container-imagen"),
