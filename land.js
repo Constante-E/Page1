@@ -1,5 +1,5 @@
 
-
+console.log("PRIMER CAMBIO EN GIT");
 let prop = {
     $cartas: document.querySelectorAll(".container-carta"),
     $imagenes: document.querySelectorAll(".container-imagen"),
