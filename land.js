@@ -1,12 +1,13 @@
 
-console.log("PRIMER CAMBIO EN GIT");
+console.log("PRIMER CAMBIO EN GIT 1");
+console.log("Segundo Cambio en el Git");
 let prop = {
     $cartas: document.querySelectorAll(".container-carta"),
     $imagenes: document.querySelectorAll(".container-imagen"),
     $hamburger: document.querySelector("#hambur"),
     $container: document.querySelector(".container"),
     $menu: document.querySelector(".menu"),
-    $body:document.getElementsByTagName("BODY")
+    $body: document.getElementsByTagName("BODY")
 }
 let met = {
     webup: function () {
