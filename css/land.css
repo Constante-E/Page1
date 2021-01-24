@@ -60,6 +60,7 @@ body {
     color: #BF360C;
 }
 
+
 .hamb {
     background: rgba(62, 39, 35, 0.2);
     margin-right: 15px;
@@ -119,7 +120,8 @@ body {
     justify-content: space-evenly;
     background-image: url(../media/images/banner.jpg);
     overflow: hidden;
-}
+
+    }
 
 .section1load {
     position: absolute;
@@ -175,6 +177,14 @@ body {
 }
 
 /* -------------- */
+
+.section1-descrip{
+    display: block;
+    position: absolute;
+    font-size: 25px;
+    font-family: Lobster;
+    font-weight: 800;
+}
 
 .fond {
     display: flex;
