@@ -28,10 +28,15 @@
 body {
     background: #212121;
 }
+
 /* VOLATIL */
+
 /* LINEA PARA GIT AGREGADA y editada */
+
 /* linea nueva en segundo cambio de prueba */
+
 /*  ESTA ES LA HOJA DE ESTILOS  ADEMAS DE LAS FUENTES*/
+
 .navegacion {
     width: 100%;
     position: fixed;
@@ -42,6 +47,8 @@ body {
     font-size: 18px;
     z-index: 80;
     overflow: hidden;
+    background: rgba(0, 0, 0, 0.5);
+    /*  CAMBIO NUEVO*/
 }
 
 .logo {
@@ -69,7 +76,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-around;
-    border: 0.5px solid #212121;
+    border: 0.5px solid #BDBDBD; /* CAMBIO NUEVO*/
 }
 
 .cont-hamb {
