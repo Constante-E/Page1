@@ -18,6 +18,11 @@
     src: url('fonts/AmaticSC-Regular.ttf') format('truetype');
 }
 
+@font-face {
+    font-family: Dosis;
+    src: url('fonts/Dosis-VariableFont_wght.ttf') format('truetype');
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -28,10 +33,15 @@
 body {
     background: #212121;
 }
+
 /* VOLATIL */
+
 /* LINEA PARA GIT AGREGADA y editada */
+
 /* linea nueva en segundo cambio de prueba */
+
 /*  ESTA ES LA HOJA DE ESTILOS  ADEMAS DE LAS FUENTES*/
+
 .navegacion {
     width: 100%;
     position: fixed;
@@ -59,7 +69,6 @@ body {
 .logo-spn2 {
     color: #BF360C;
 }
-
 
 .hamb {
     background: rgba(62, 39, 35, 0.2);
@@ -120,8 +129,7 @@ body {
     justify-content: space-evenly;
     background-image: url(../media/images/banner.jpg);
     overflow: hidden;
-
-    }
+}
 
 .section1load {
     position: absolute;
@@ -166,6 +174,13 @@ body {
     background: rgba(0, 0, 0, 0.5);
 }
 
+.banner-feel{
+    width: 60%;
+    height: auto;
+    border-bottom: 3px solid rgba(84, 110, 122, 0.25);
+
+}
+
 .section1-feel {
     width: 700px;
     height: auto;
@@ -176,15 +191,16 @@ body {
     opacity: 0.9;
 }
 
+.section1-descrip {
+    width: 75%;
+    font-family: Dosis;
+    font-weight: 600;
+    font-size: 25px;
+    color: #B0BEC5;
+}
 /* -------------- */
 
-.section1-descrip{
-    display: block;
-    position: absolute;
-    font-size: 25px;
-    font-family: Lobster;
-    font-weight: 800;
-}
+
 
 .fond {
     display: flex;
