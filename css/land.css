@@ -67,6 +67,16 @@ body {
     color: #BF360C;
 }
 
+.navegacion-enjoy {
+    color: #dddddd;
+    font-weight: 400;
+    font-family: Hachimaru;
+}
+
+.navegacion-enjoy span {
+    color: #3E2723;
+}
+
 .hamb {
     background: rgba(62, 39, 35, 0.2);
     margin-right: 15px;
@@ -76,7 +86,8 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-around;
-    border: 0.5px solid #BDBDBD; /* CAMBIO NUEVO*/
+    border: 0.5px solid #BDBDBD;
+    /* CAMBIO NUEVO*/
 }
 
 .cont-hamb {
