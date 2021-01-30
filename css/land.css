@@ -432,8 +432,13 @@ body {
     box-sizing: border-box;
     border: 1px solid white;
     border-radius: 6px;
-}
+    transform: translateY(60px);
+    overflow: hidden;
 
+}
+.section3-info:hover{
+
+}
 .section3-info::before {
     position: absolute;
     content: '';
