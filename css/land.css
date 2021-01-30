@@ -436,9 +436,7 @@ body {
     overflow: hidden;
 
 }
-.section3-info:hover{
 
-}
 .section3-info::before {
     position: absolute;
     content: '';
