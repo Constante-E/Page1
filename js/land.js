@@ -1,38 +1,22 @@
 let prop = {
-    $cartas: document.querySelectorAll(".container-carta"),
-    $imagenes: document.querySelectorAll(".container-imagen"),
-    $hamburger: document.querySelector("#hambur"),
-    $container: document.querySelector(".container"),
-    $menu: document.querySelector(".menu"),
-    $body: document.getElementsByTagName("BODY")
+    $hamburger: document.getElementById("hambur"),
+    $menu: document.getElementById("menu"),
 }
 let met = {
-    webup: function () {
-        prop.$hamburger.addEventListener("click", met.ejecutar);
-        prop.$menu.addEventListener("mouseout", met.ocultarmenu);
-    },
-    ocultarmenu: function () {
-        // prop.$menu.style.right = "-19%";
-    },
-    ejecutar: function () {
-        prop.$menu.style.transition = "all 0.6s";
-        prop.$menu.style.right = "5px";
-    },
-    inicio: function (valor) {
+
+    inicio: function () {
         if (document.documentElement.scrollTop > 700 && document.documentElement.scrollTop < 1200) {
-            met.inicio2();
         } else {
-            met.inicio3();
         }
     },
-    inicio2: function () {
-        for (let i = 0; i < prop.$imagenes.length; i++) {
-            prop.$imagenes[i].style.zIndex = "20";
-        }
+    webup: function () {
+        prop.$hamburger.addEventListener("click", met.menu);
     },
-    inicio3: function () {
-        for (let i = 0; i < prop.$imagenes.length; i++) {
-            prop.$imagenes[i].style.zIndex = "";
+    menu: function () {
+        if(prop.$menu.style.right == "5px"){
+            prop.$menu.style.right = "-300px";
+        }else{
+            prop.$menu.style.right = "5px";
         }
     }
 }
