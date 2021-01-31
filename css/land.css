@@ -50,7 +50,7 @@ body {
     align-items: center;
     height: 8%;
     font-size: 18px;
-    z-index: 50;
+    z-index: 60;
 }
 
 .logo {
@@ -298,13 +298,14 @@ body {
     position: fixed;
     width: 18%;
     height: 95%;
-    background: rgba(62, 39, 35, 0.5);
+    background: rgba(20, 16, 16, 0.5);
     border: 0.5px solid #212121;
     border-radius: 15px;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
     z-index: 50;
+    transition: all, 0.4s;
 }
 
 .menu-1, .menu-2 {
