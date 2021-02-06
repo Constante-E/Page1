@@ -204,9 +204,9 @@ body {
     font-family: Dosis;
     font-weight: 600;
     font-size: 25px;
-    color: #B0BEC5;
-}
-
+    color: rgba(224, 224, 224, 0.6);
+    z-index: 10;
+    }
 /* -------------- */
 
 .fond {
@@ -350,7 +350,6 @@ body {
     height: 50%;
     justify-content: space-evenly;
     align-items: center;
-    border: 1px solid white;
     transition: all 1s;
 }
 
@@ -427,7 +426,6 @@ body {
     background: rgba(0, 0, 0, 0.4);
 }
 
-
 .section3-info {
     position: relative;
     width: 50%;
@@ -502,12 +500,101 @@ body {
     position: absolute;
     width: 100%;
     height: 100%;
-    background: rgba(0, 0, 0, 0.8);
+    background: rgba(0, 0, 0, 0.6);
 }
 
-.cartilla{
+.cartilla {
+    width: 80%;
+    height: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    z-index: 20;
+}
+
+.cartilla-plan {
     border: 1px solid white;
-    
+    border-radius: 6px;
+    width: 25%;
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    cursor: pointer;
+
+}
+
+.plan1 {
+    width: 85%;
+    border: 1px solid white;
+    border-radius: 6px;
+    overflow: hidden;
+    position: relative;
+}
+.plan1:before{
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.3);
+    z-index: -10;
+}
+.plan1-titulo{
+    color: white;
+    text-align: center;
+    line-height: 2em;
+    font-size: 32px;
+    font-family: Dosis;
+}
+.plan2 {
+    width: 85%;
+    height: 20%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.plan2 span {
+    width: 65%;
+    color: #B0BEC5;
+    font-family: Dosis;
+    line-height: 48px;
+    font-size: 25px;
+    text-align: center;
+    border-bottom: 1.5px solid #212121;
+}
+
+.plan-btn{
+    border: 1px solid;
+    width: 40%;
+    height: 7%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: #212121;
+    background: rgba(0, 0, 0, 0.3);
+    border-radius: 18px;
+    position: relative;
+}
+.plan-btn::before{
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border: 1px solid white;
+    border-radius: 20px;
+    transform: translate(5%, 12%);
+    z-index: -10;
+    display: none;
+}
+.btn-unirte{
+    color: white;
+    font-size: 25px;
+    text-align: center;
+    font-family: Gill Sans;
+    font-weight: 500;
+
 }
 
 .movoff {
@@ -516,6 +603,4 @@ body {
     opacity: 0%;
 }
 
-
 /* -------------- */
-
